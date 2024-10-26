@@ -31,6 +31,7 @@ function updateTotalPrice() {
 
 
 
+
 // Handle order submission
 
 placeOrderButton.addEventListener('click', function() {
