@@ -31,9 +31,9 @@ function updateTotalPrice() {
 
 
 
+//Task 4: Handle Order Submission
 
-// Handle order submission
-
+//Event listener to handle order submission
 placeOrderButton.addEventListener('click', function() {
 const selectedProduct = productSelector.options[productSelector.selectedIndex].text;
 const quantity = quantityInput.value;
